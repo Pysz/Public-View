@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(215, 140, 140);
+  background-image: url("pokesortimages/pokesortwhiteback.jpg");
+  background-size: cover;
+}
+
+#header {
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  height: 110px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 45vw;
+  border-radius: 50%;
+  background-image: url("pokesortimages/pokeheader.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 175%;
+  line-height: 1.75;
+}
+
+#allsliders {
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+#allsliders > div {
+  margin-bottom: 20px;
+}
+
+#returnspace {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+  font-size: 110%;
+  color: black;
+  text-decoration: dotted underline;
+  text-underline-offset: 5px;
+}
+
+#checkButton {
+  display: inline;
+  margin-left: 100px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 18%;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 0 3px black;
+}

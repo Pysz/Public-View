@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="Stylesheet" type="text/css" href="AimTrainer.css" />
+  </head>
+  <body>
+    <audio id="gunsound1" src="AimTrainerSounds/handgunsound.mp3"></audio>
+    <audio id="misssound" src="AimTrainerSounds/misssound.mp3"></audio>
+    <audio id="redhitsound" src="AimTrainerSounds/redhitbuzzer.wav"></audio>
+
+    <div id="header">
+      <div id="score">Score - 0</div>
+      <div id="accuracy">Accuracy</div>
+      <div id="time" onclick="startCount()">Time</div>
+    </div>
+    <div id="targetcontainer" onclick="missClick()">
+      <div id="target" onclick="shootClick(event)"></div>
+    </div>
+    <script src="AimTrainer.js"></script>
+  </body>
+</html>

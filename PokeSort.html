@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokeSort</title>
+    <link rel="Stylesheet" type="text/css" href="PokeSort.css" />
+  </head>
+  <body>
+    <div id="header">P0KE<br />S0RT</div>
+    <div id="allsliders">
+      <div id="sliderhp">
+        <input
+          type="range"
+          min="0"
+          max="230"
+          value="0"
+          oninput="updatehpValue(this.value)"
+        />
+        <span id="hpValue">HP: 0</span>
+      </div>
+
+      <div id="sliderattack">
+        <input
+          type="range"
+          min="0"
+          max="230"
+          value="0"
+          oninput="updateatkValue(this.value)"
+        />
+        <span id="atkValue">Attack: 0</span>
+      </div>
+      <div id="sliderdefense">
+        <input
+          type="range"
+          min="0"
+          max="230"
+          value="0"
+          oninput="updatedefValue(this.value)"
+        />
+        <span id="defValue">Defense: 0</span>
+      </div>
+      <div id="sliderspatk">
+        <input
+          type="range"
+          min="0"
+          max="230"
+          value="0"
+          oninput="updatespatkValue(this.value)"
+        />
+        <span id="spatkValue">Sp. Atk: 0</span>
+      </div>
+      <div id="sliderspdef">
+        <input
+          type="range"
+          min="0"
+          max="230"
+          value="0"
+          oninput="updatespdefValue(this.value)"
+        />
+        <span id="spdefValue">Sp. Def: 0</span>
+      </div>
+      <div id="sliderspeed">
+        <input
+          type="range"
+          min="0"
+          max="230"
+          value="0"
+          oninput="updatespeedValue(this.value)"
+        />
+        <span id="speedValue">Speed: 0</span>
+      </div>
+    </div>
+
+    <div id="checkButton" onclick="checkClick()">Check</div>
+
+    <div id="returnspace">Click check to see results</div>
+    <script src="PokeType.js"></script>
+    <script src="PokedexInfo.js"></script>
+    <script src="PokeSort.js"></script>
+  </body>
+</html>

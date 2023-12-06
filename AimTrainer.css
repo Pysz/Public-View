@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(115, 111, 111);
+  background-image: url("AimTrainerPic/blackback2.jpg");
+  background-size: cover;
+}
+
+#header {
+  background-color: rgb(154, 139, 154);
+  height: 50px;
+  width: calc(100vw - 40px);
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-bottom: 75px;
+  background-image: url("AimTrainerPic/wood-background.jpg");
+  background-size: cover;
+}
+
+#target {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  margin: 5px;
+  box-shadow: 0 0 5px black;
+  background-image: radial-gradient(circle, rgb(9, 219, 34), black 100%);
+}
+
+#targetcontainer {
+  width: calc(100vw - 210px);
+  margin-left: 100px;
+  padding: 0px;
+  height: calc(100vh - 200px);
+  text-align: center;
+  font-size: 300%;
+  color: wheat;
+}
+
+#score,
+#time,
+#accuracy {
+  padding: 5px;
+  margin: 5px;
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  user-select: none;
+}
